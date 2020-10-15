@@ -1,0 +1,47 @@
+
+Console.WriteLine("Введите ваш ник");
+string clichka = Console.ReadLine();
+Console.WriteLine($"{clichka} а я думал спортсмен))");
+
+Console.WriteLine($"Здравствуйте уважаемый {clichka} {name} " +
+$"теперь вам нужно выполнить решение выберите одно из двух");
+
+
+
+}
+/// <summary>
+/// Функция считает результат сложения (a и b вводит сам user)
+/// </summary>
+/// <param name="a"></param>
+/// <param name="b"></param>
+/// <returns></returns>
+
+public int Multiplication()
+{
+Console.WriteLine("Введите первое значение");
+int a = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Введите второе значение");
+int b = Convert.ToInt32(Console.ReadLine());
+return a * b;
+}
+
+/// <summary>
+/// Функция считает результат деления (a и b вводит сам пользователь)
+/// </summary>
+/// <param name="a"></param>
+/// <param name="b"></param>
+/// <returns></returns>
+public int Division()
+{
+Console.WriteLine("Введите первое значение");
+int a = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Введите второе значение");
+int b = Convert.ToInt32(Console.ReadLine());
+return a / b;
+
+}
+
+}
+}
